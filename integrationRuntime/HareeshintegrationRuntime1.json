@@ -1,0 +1,6 @@
+{
+	"name": "HareeshintegrationRuntime1",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
