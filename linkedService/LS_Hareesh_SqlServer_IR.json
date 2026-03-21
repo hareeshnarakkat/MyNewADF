@@ -1,0 +1,21 @@
+{
+	"name": "LS_Hareesh_SqlServer_IR",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "INBAWN179132\\SQLEXPRESS01",
+			"database": "AzureTest",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "Windows",
+			"userName": "adharman\\inhkumar03",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI0NDFhMzA4My0xZTA3LTQxNGItYmYwYy04MWQ4Mzk1MGIzNDUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "HareeshintegrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
